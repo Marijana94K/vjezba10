@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(sky+photo+for+website+home+page.jpeg);
+}
+
+.wrapper{
+    width:990px;
+ background-color: white;
+    margin: auto;
+    padding: 15px;
+}
+
+.header {
+    background-color: brown;
+    margin-bottom: 0.5em;
+    padding: 1em;
+    color:white;
+    
+}
+
+nav{
+    background-color: #333;
+    margin-bottom: 1em;
+    overflow: hidden;
+    padding: 1px;
+    }
+
+    .nav-list {
+        list-style: none;
+}
+ .nav-list li {
+     float: left;
+     margin: 1em;
+ }
+ 
+ .nav-list a {
+     text-decoration: none;
+     color: white;
+    display: block;
+ }
+
+ .nav-list li a:hover {
+     background-color: red;
+
+ }
+
+ main {
+width: 700px;
+float: left;
+
+ }
+
+ .main-heading {
+margin-bottom: 1em;
+text-align: center;
+font-family: sans-serif;
+ }
+
+ .subheading  {
+     margin-bottom: 0.5em;
+     text-align: center;
+font-family: sans-serif;
+font-style: oblique;
+ }
+ 
+ main p:nth-child(8) {
+     text-align: justify;
+     margin-bottom: 1em;
+}
+main p:nth-child(6) {
+    text-align:left;
+    font-style: italic;
+}
+ul {
+    text-align: left;
+    list-style-type: circle;
+    padding: 10px;
+}
+ aside {
+     float: right;
+    width: 240px;
+ }
+  .section {
+margin-bottom: 1em;
+padding:10px
+  }
+  .section-heading {
+      background-color: rosybrown;
+      margin-bottom: 1em;
+  }
+
+  .section-heading1 {
+    background-color: rosybrown;
+    margin-bottom: 1em;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+
+ footer {
+     clear: both;
+text-align: center;
+background-color: #333;
+color: white;
+padding: 0.5em;
+margin-top: 3em;
+ }
+ h1 {
+     text-align: center;
+     color:rgb(0, 0, 0);
+     margin-bottom: 1em;
+ }
+p {
+    margin-bottom: 0.5em;
+    text-align: justify;
+}
